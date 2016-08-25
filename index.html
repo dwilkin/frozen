@@ -30,11 +30,22 @@
     </li>
   </ul>
   <div class="content">
-    <p id="tabOne">This is the content in the first tab.</p>
+    <div class="tabOne">
+    <p>Create new cases here:</p>
+    <form>
+      Atlantis user page:<br>
+        <input type="text" name="userpage"><br>
+      Notes:<br>
+        <input type="text" name="notes"><br>
+      Options:<br>
+          <input type="radio" name="action" value="freeze" checked> Freeze Account<br>
+          <input type="radio" name="action" value="additional"> Additoinal Option<br>
+          <input type="radio" name="action" value="other"> Other
+      <input type="submit" value="Freeze">
+    </form>
+    </div>
     <p id="tabTwo">This is the content in the second tab.</p>
     <p id="tabThree">This is the content in the third tab.</p>
-    <p id="tabFour">This is the content in the fourth tab.</p>
-    <p id="tabFive">This is the content in the fifth tab.</p>
   </div>
 </div>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
